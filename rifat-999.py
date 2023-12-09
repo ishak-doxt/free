@@ -352,20 +352,16 @@ version="1.06"
 def line():
 	print(16*'\033[1;92m═'+'\033[1;91m[\033[1;92mKHALID-404\033[1;91m]'+16*'\033[1;92m═')
 def logo():
-	os.system('clear');print(f"""\x
-dP .d88888b  dP     dP   .d888888  dP     dP 
-88 88.    "' 88     88  d8'    88  88   .d8' 
-88 `Y88888b. 88aaaaa88a 88aaaaa88a 88aaa8P'  
-88       `8b 88     88  88     88  88   `8b. 
-88 d8'   .8P 88     88  88     88  88     88 
-dP  Y88888P  dP     dP  88     88  dP     dP 
-                                             
-                                             
-
+	os.system('clear');print(f"""\x1b[1;92m  ██████╗ ███████╗\033[1;33m █████╗ \x1b[1;91m  ████████╗  \x1b[1;94m██╗	 \x1b[1;96m  ██\x1b[1;95m ╗  \x1b[1;94m
+\x1b[1;92m  ██╔══██╗ \033[1;33mb██╔════╝\x1b[1;91m██╔══██╗\x1b[1;94m╚══██	 \x1b[1;96m╔══╝\x1b[1;95m██║ \x1b[1;94m██║
+\x1b[1;92m  ██║  ██║   \033[1;33m█████╗\x1b[1;91m ███████║\x1b[1;94m  ██║	 \x1b[1;96m ███████║ \x1b[1;95m  \x1b[1;94m
+\x1b[1;92m  ██║  ██║  \033[1;33m ██╔══╝\x1b[1;91m ██╔══██║ \x1b[1;94m ██║	 \x1b[1;96m ██╔══██║ \x1b[1;95m  \x1b[1;94m
+\x1b[1;92m  ██████╔╝ \033[1;33m███████╗\x1b[1;91m██║  ██║\x1b[1;94m ██║ \x1b[1;96m ██║ \x1b[1;95m██║   \x1b[1;94m
+\x1b[1;92m  ╚═════╝   \033[1;33m ╚══════╝ \x1b[1;91m ╚═╝  ╚═╝\x1b[1;94m╚═╝ \x1b[1;96m╚═╝  \x1b[1;95m ╚═╝
                                                                                             \x1b[1;91m 𝘿𝙀𝘼𝙏𝙃\__😘😈
 \033[1;97m┏\033[1;92m═══════════════════════════════┳═══════════\033[1;97m╗
-\033[1;97m║ \033[1;96mDEVOLPER : \033[1;92mIshak 😈  \033[1;92m║\033[0;101mVERSION-1.5\033[0m\033[1;97m║
-\033[1;97m║ \033[1;96mFACEBOOK : \033[1;93mRV Ishak \033[1;92m║═══════════\033[1;97m║
+\033[1;97m║ \033[1;96mDEVOLPER : \033[1;92mRIFAT 😈  \033[1;92m║\033[0;101mVERSION-1.5\033[0m\033[1;97m║
+\033[1;97m║ \033[1;96mFACEBOOK : \033[1;93mRV RIFAT \033[1;92m║═══════════\033[1;97m║
 \033[1;97m║ \033[1;96mGITHUB   : \033[1;94mDEATH-404         \033[1;92m║ \033[1;93m RANDOM   \033[1;97m║
 \033[1;97m║ \033[1;96mWHATSAPP : \033[1;95m+8801792-112896   \033[1;92m║\033[1;92mBANGLADESH \033[1;97m║
 \033[1;97m┗\033[1;92m═══════════════════════════════┻═══════════\033[1;97m╝\033[0m""")
@@ -375,22 +371,22 @@ def Main():
 	line()
 	gh=input(f'\033[1;91m[{G}•\033[1;91m] CHOICE : {G}')
 	if gh in ["A","a","1","01"]:
-		os.system("xdg-open https://www.facebook.com/rv.Ishak.008?mibextid=ZbWKwL")
+		os.system("xdg-open https://www.facebook.com/rv.rifat.008?mibextid=ZbWKwL")
 		menu2()
 	elif gh in ["x","X","00"]:
-		os.system("xdg-open https://www.facebook.com/rv.Ishak.008?mibextid=ZbWKwL")
+		os.system("xdg-open https://www.facebook.com/rv.rifat.008?mibextid=ZbWKwL")
 		os.system("exit")
 	elif gh in ["B","b","02"]:
-		os.system("xdg-open https://www.facebook.com/rv.Ishak.008?mibextid=ZbWKwL")
+		os.system("xdg-open https://www.facebook.com/rv.rifat.008?mibextid=ZbWKwL")
 		menu3()
 	elif gh in ["c","C","03"]:
-		os.system("xdg-open https://www.facebook.com/rv.Ishak.008?mibextid=ZbWKwL")
+		os.system("xdg-open https://www.facebook.com/rv.rifat.008?mibextid=ZbWKwL")
 		menu4()
 	elif gh in ["D","d","04"]:
-		os.system("xdg-open https://www.facebook.com/rv.Ishak.008?mibextid=ZbWKwL")
+		os.system("xdg-open https://www.facebook.com/rv.rifat.008?mibextid=ZbWKwL")
 		menup()
 	elif gh in ["E","e","05"]:
-		os.system("xdg-open https://www.facebook.com/rv.Ishak.008?mibextid=ZbWKwL")
+		os.system("xdg-open https://www.facebook.com/rv.rifat.008?mibextid=ZbWKwL")
 		menui()
 	else:
 		line();print(f'\n \t {R}CHOOSE VALID OPTION{E}');time.sleep(1);Main()
